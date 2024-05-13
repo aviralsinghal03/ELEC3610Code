@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Preference Settings</title>
+</head>
+
+<body>
+    <nav>
+        <a href="main_feed.html">Main Feed</a>
+        <a href="customized_feed.html">Customized Feed</a>
+        <a href="preferences.html">Preference Settings</a>
+    </nav>
+    <form id="preferencesForm">
+        <label><input type="checkbox" name="category" value="Technology"> Technology</label><br>
+        <label><input type="checkbox" name="category" value="Healthcare"> Healthcare</label><br>
+        <label><input type="checkbox" name="category" value="Finance"> Finance</label><br>
+        <label><input type="checkbox" name="category" value="Lifestyle"> Lifestyle</label><br>
+        <label><input type="checkbox" name="category" value="Gaming"> Gaming</label><br>
+        <label><input type="checkbox" name="category" value="Health"> Health</label><br>
+        <label><input type="checkbox" name="category" value="Food"> Food</label><br>
+        <label><input type="checkbox" name="category" value="Fashion"> Fashion</label><br>
+        <label><input type="checkbox" name="category" value="Energy"> Energy</label><br>
+        <label><input type="checkbox" name="category" value="Education"> Education</label><br>
+        <button type="button" onclick="savePreferences()">Save Preferences</button>
+    </form>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

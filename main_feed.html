@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Main Feed</title>
+</head>
+
+<body>
+    <nav>
+        <a href="main_feed.html">Main Feed</a>
+        <a href="customized_feed.html">Customized Feed</a>
+        <a href="preferences.html">Preference Settings</a>
+    </nav>
+    <div class="filter">
+        <input type="number" id="minPledge" placeholder="Minimum Pledge">
+        <input type="date" id="pledgeEndDate" placeholder="Pledge End Date">
+        <button onclick="applyFilter()">Filter</button>
+    </div>
+    <div id="feed"></div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
